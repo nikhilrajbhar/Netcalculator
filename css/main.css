@@ -1,0 +1,57 @@
+﻿*{
+    box-sizing: border-box;
+}
+/* #003256 */
+.container-table{
+    width: 50rem;
+    margin: 2rem 2rem;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #003256;
+    border: 2px solid white;
+}
+
+.form-group{
+    display: flex;
+    justify-content: left;
+}
+
+.form-group button{
+    margin-left: 2rem;
+    cursor: pointer;
+    padding: 0px 8px 2px 8px;
+    font-size: 22px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    align-content: center;
+    border-radius: 50%;
+    text-align: center; 
+    height: 33px;
+    display: inline-flex;
+    justify-content: center; /* center the content horizontally */
+    align-items: center;
+     
+}
+#minus{
+    padding: 0px 12px 0px 12px;  
+}
+
+.form-control{
+    width: 75%;
+}
+
+.table .tbody td .valueClass{
+    width: 25rem;
+    display: flex;
+}
+
+/* .table .tbody td {
+    border: 1px solid #000;
+} */
+
+
+.table { 
+    color: black;
+}

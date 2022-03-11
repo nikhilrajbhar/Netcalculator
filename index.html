@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Net Worth</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./css/main.css" rel="stylesheet" />
+    <script src="./js/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container-page">
+        <div style="display: flex;flex-direction: column;align-items: center;">
+            <div class="container-table">
+                <h2 style="margin-bottom: 13px;"> My Assets</h2>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                        <tr>
+                            <td>Cash</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Checking Accounts</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Savings Accounts</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Matched savings accounts</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Savings bonds</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Stocks or mutual funds</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Other assets</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control assets" id="asset1"
+                                        aria-describedby="asset1" placeholder="Enter value">
+                                    <button class="btn btn-primary btn-sm add"> + </button>
+                                    <!-- <button class="btn btn-danger remove" id="minus"> - </button> -->
+
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="container-table">
+                <h2 style="margin-bottom: 13px;"> My Liabilities </h2>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody2">
+                        <tr>
+                            <td>Credit card balances:</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="asset1"
+                                        placeholder="Enter value">
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Balances owed on store purchases (layaway or other store credit):</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="asset1"
+                                        placeholder="Enter value">
+
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Bills due for services (medical, dental, electrical, gas, phone, and other services):
+                            </td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="asset1"
+                                        placeholder="Enter value">
+
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Mortgages (principal balance):</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="asset1"
+                                        placeholder="Enter value">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Vehicle loans (principal balance):</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="asset1"
+                                        placeholder="Enter value">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Student loans (principal balance):</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="asset1"
+                                        placeholder="Enter value">
+
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Other liabilities</td>
+                            <td class="valueClass">
+                                <div class="form-group">
+                                    <input type="number" class="form-control liabilities" aria-describedby="liabilities"
+                                        placeholder="Enter value">
+                                    <button class="btn btn-primary addliabilities"> + </button>
+                                    <!-- <button class="btn btn-danger remove" id="minus"> - </button> -->
+
+                                </div>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="container-table">
+                <h1>Net Worth :</h1>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Category</th>
+                            <th scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody3">
+                        <tr>
+                            <td>My Total Assets</td>
+                            <td><strong id="totalAssets">0</strong></td>
+                        </tr>
+                        <tr>
+                            <td>My Total Liabilities</td>
+                            <td><strong id="totalLiabilities">0</strong> </td>
+                        </tr>
+                        <tr>
+                            <td>My Net Worth</td>
+                            <td><strong id="totalNetWorth">0</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            console.log("doc ready");
+            let totalAssets = 0;
+            let totalLiabilities = 0;
+
+            // Asset Sum
+            $(document).on('input', '.form-group .assets', function () {
+                let assetsSum = 0;
+                $('.form-group .assets').each(function () {
+                    let inputVal = $(this).val();
+                    if ($.isNumeric(inputVal)) {
+                        assetsSum += parseFloat(inputVal)
+                    }
+                });
+                console.log(assetsSum)
+                totalAssets = assetsSum;
+                $('#totalAssets').text(assetsSum);
+            })
+
+            // Liability Sum
+            $(document).on('input', '.form-group .liabilities', function () {
+                let liabilitiesSum = 0;
+                $('.form-group .liabilities').each(function () {
+                    let inputVal = $(this).val();
+                    if ($.isNumeric(inputVal)) {
+                        liabilitiesSum += parseFloat(inputVal)
+                    }
+                });
+                console.log(liabilitiesSum)
+                totalLiabilities = liabilitiesSum;
+                $('#totalLiabilities').text(liabilitiesSum);
+            })
+
+            // Total Net worth
+            $(document).on('input', '.form-group', function () {
+                // Check input( $( this ).val() ) for validity here
+                console.log('sumassets', totalAssets);
+                console.log('sumliab', totalLiabilities);
+                let totalNetWorth = totalAssets - totalLiabilities;
+                console.log('totalNetWorth', totalNetWorth);
+                $('#totalNetWorth').text(totalNetWorth);
+            });
+
+            // Add Assets
+            $(document).on('click', '.add', function (e) {
+                e.preventDefault();
+                $(this).remove();
+                $(".tbody").append(
+                    '<tr>' +
+                    '<td>Other assets</td>' +
+                    '<td class="valueClass">' +
+                    '<div class="form-group">' +
+                    '<input type="number" class="form-control assets" id="asset1" aria-describedby="asset1" placeholder="Enter value">' +
+                    '<button class="btn btn-danger remove" id="minus"> - </button>' +
+                    '<button class="btn btn-primary add"> + </button>' +
+                    '</div></td></tr>');
+            });
+
+            // remove assets
+            $(document).on('click', '.remove', function (e) {
+                e.preventDefault();
+                var prevalue = $(this).siblings('input').val();
+                console.log('value', prevalue);
+                if (!prevalue) {
+                    let x = $(this).parent().parent().parent().prev()
+                    x.children().children().append('<button class="btn btn-primary add"> + </button>');
+                    $(this).parent().parent().parent().remove();
+                } else return;
+
+            });
+
+            // Add Liabilties
+            $(document).on('click', '.addliabilities', function (e) {
+                e.preventDefault();
+                $(this).remove();
+                $(".tbody2").append(
+                    '<tr>' +
+                    '<td>Other liabilities</td>' +
+                    '<td class="valueClass">' +
+                    '<div class="form-group">' +
+                    '<input type="number" class="form-control liabilities" aria-describedby="liabilities" placeholder="Enter value">' +
+                    '<button class="btn btn-danger removeliabilities" id="minus"> - </button>' +
+                    '<button class="btn btn-primary addliabilities"> + </button>' +
+                    '</div></td></tr>');
+            });
+
+            // remove Liabilties
+            $(document).on('click', '.removeliabilities', function (e) {
+                e.preventDefault();
+                var prevalue = $(this).siblings('input').val();
+                console.log('value', prevalue);
+                if (!prevalue) {
+                    let x = $(this).parent().parent().parent().prev()
+                    x.children().children().append('<button class="btn btn-primary addliabilities"> + </button>');
+                    $(this).parent().parent().parent().remove();
+                } else return;
+
+            });
+
+        });
+    </script>
+
+    <script src="./js/popper.min.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./js/functions.js" type="text/javascript"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
+
+<!-- <tr>
+    <td>Other assets</td>
+    <td class="valueClass">
+        <div class="form-group">
+            <input type="number" class="form-control assets" id="asset1" aria-describedby="asset1"
+                placeholder="Enter value">
+                <div>
+                    <button class="btn btn-primary add"> + </button>
+                </div>
+                <div>
+                    <button class="btn btn-danger remove" id="minus"> - </button>
+                </div>                                      
+        </div>                             
+    </td>
+
+</tr> -->
+
+<!-- "<tr>" +
+    "<td>Other assets</td>" +
+    "<td class='valueClass'>" +
+    "<div class='form-group'>" +
+    "<input type='number' class='form-control assets' aria-describedby='asset1' placeholder='Enter value'>" +
+    "<div>" +
+    "<button class='btn btn-primary add'> + </button>" +
+    "</div>" +
+    "<div>" +
+    "<button class='btn btn-danger remove' id='minus'> - </button>" +
+    "</div>" +
+    "</div>" +
+    "</td>" +
+    "</tr>" -->
